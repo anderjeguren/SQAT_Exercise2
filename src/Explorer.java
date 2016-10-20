@@ -20,7 +20,7 @@ public class Explorer {
 	public String getDirection() {
 		return direction;
 	}
-	public void redirectLeft(String string) {
+	public void redirectLeft() {
 		// TODO Auto-generated method stub
 		switch(direction){
 		case "N":
@@ -38,19 +38,19 @@ public class Explorer {
 		}
 		
 	}
-	public void redirectRight(String string) {
+	public void redirectRight() {
 		// TODO Auto-generated method stub
 		switch(direction){
 		case "N":
-			this.direction = "W";
-			break;
-		case "W":
-			this.direction = "S";
-			break;
-		case "S":
 			this.direction = "E";
 			break;
 		case "E":
+			this.direction = "S";
+			break;
+		case "S":
+			this.direction = "W";
+			break;
+		case "W":
 			this.direction = "N";
 			break;
 		}
