@@ -142,3 +142,6 @@ RefactoringAction 1476964914965 Explorer.java ADD void setY(int) METHOD
 RefactoringAction 1476964914966 Explorer.java ADD String getDirection() METHOD
 RefactoringAction 1476964914966 Explorer.java ADD void setDirection(String) METHOD
 EditAction 1476964918503 Explorer.java 415 6 6 0
+CompilationAction 1476964918630 PlanetExplorer.java
+CompilationAction 1476964918630 PlanetExplorer.java
+EditAction 1476964954554 PlanetExplorer.java 1564 4 6 0
