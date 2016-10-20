@@ -62,6 +62,15 @@ public class PlanetExplorer {
 		case "w":
 			exp.redirect("N");
 			break;
+		case "s":
+			exp.redirect("S");
+			break;
+		case "a":
+			exp.redirect("W");
+			break;
+		case "d":
+			exp.redirect("E");
+			break;
 		}
 	}
 
