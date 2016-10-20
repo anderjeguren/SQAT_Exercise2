@@ -73,3 +73,17 @@ EditAction 1476964644015 PlanetExplorer.java 1463 3 4 0
 CompilationAction 1476964644147 PlanetExplorer.java
 EditAction 1476964656772 PlanetExplorer.java 1463 3 4 0
 EditAction 1476964660046 TestPlanetExplorer.java 396 2 2 1
+CompilationAction 1476964660286 TestPlanetExplorer.java
+CompilationAction 1476964660287 TestPlanetExplorer.java
+CompilationAction 1476964660287 TestPlanetExplorer.java
+RefactoringAction 1476964670132 PlanetExplorer.java ADD Explorer exp FIELD
+CompilationAction 1476964671399 PlanetExplorer.java
+CompilationAction 1476964671399 TestPlanetExplorer.java
+CompilationAction 1476964671399 TestPlanetExplorer.java
+CompilationAction 1476964671400 TestPlanetExplorer.java
+RefactoringAction 1476964681318 BoxInfo.java REMOVE BoxInfo.java CLASS
+CompilationAction 1476964713544 TestPlanetExplorer.java
+CompilationAction 1476964713703 TestPlanetExplorer.java
+CompilationAction 1476964713704 TestPlanetExplorer.java
+CompilationAction 1476964713704 TestPlanetExplorer.java
+EditAction 1476964721000 TestPlanetExplorer.java 413 2 5 1

@@ -6,6 +6,7 @@
 public class PlanetExplorer {
 	
 	private boolean planet[][];
+	private Explorer exp;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
