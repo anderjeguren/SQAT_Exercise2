@@ -29,6 +29,8 @@ public class Explorer {
 		this.direction = string;
 
 	}
-	
+	public int moveUp() {
+		return y;
+	}
 	
 }

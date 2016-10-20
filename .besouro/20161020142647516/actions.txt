@@ -288,3 +288,7 @@ EditAction 1476966444198 PlanetExplorer.java 2414 7 13 0
 CompilationAction 1476966444353 PlanetExplorer.java
 EditAction 1476966461236 PlanetExplorer.java 2414 7 13 0
 EditAction 1476966519868 PlanetExplorer.java 2486 7 13 0
+RefactoringAction 1476966548465 Explorer.java ADD int getY()/2 METHOD
+RefactoringAction 1476966552473 Explorer.java RENAME getY()/2=>int move() METHOD
+RefactoringAction 1476966553978 Explorer.java RENAME move()=>int moveUp() METHOD
+EditAction 1476966593022 Explorer.java 594 7 11 0
