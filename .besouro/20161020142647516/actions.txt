@@ -87,3 +87,16 @@ CompilationAction 1476964713703 TestPlanetExplorer.java
 CompilationAction 1476964713704 TestPlanetExplorer.java
 CompilationAction 1476964713704 TestPlanetExplorer.java
 EditAction 1476964721000 TestPlanetExplorer.java 413 2 5 1
+CompilationAction 1476964721088 TestPlanetExplorer.java
+CompilationAction 1476964721089 TestPlanetExplorer.java
+CompilationAction 1476964739244 TestPlanetExplorer.java
+CompilationAction 1476964739398 TestPlanetExplorer.java
+CompilationAction 1476964739399 TestPlanetExplorer.java
+RefactoringAction 1476964744362 PlanetExplorer.java ADD void landExplorer() METHOD
+RefactoringAction 1476964761228 Explorer.java ADD Explorer.java CLASS
+FileOpenedAction 1476964761361 Explorer.java 32 0 0 0
+CompilationAction 1476964761383 TestPlanetExplorer.java
+CompilationAction 1476964761383 TestPlanetExplorer.java
+RefactoringAction 1476964772364 Explorer.java ADD int x FIELD
+RefactoringAction 1476964776370 Explorer.java ADD int y FIELD
+EditAction 1476964784259 Explorer.java 87 0 0 0

@@ -16,6 +16,6 @@ public class TestPlanetExplorer {
 		PlanetExplorer planet = new PlanetExplorer(100,100,"");
 		
 		planet.landExplorer();
-		asserTrue(planet[0][0]);
+		asserTrue(planet.getPosition(0,0));
 	}
 }
