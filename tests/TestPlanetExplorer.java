@@ -8,7 +8,7 @@ public class TestPlanetExplorer {
 	public void testThePlanet() {
 		PlanetExplorer planet = new PlanetExplorer(100,100,"");
 		
-		assertNotNull(10000,planet.getSize());
+		assertEquals(100, planet.getSize());
 		
 	}
 }
