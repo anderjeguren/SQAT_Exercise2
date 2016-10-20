@@ -32,6 +32,9 @@ public class Explorer {
 			this.x++;
 	}
 	public void moveDown() {
+		if (this.x==0)
+			this.x = 99;
+		else
 		this.x--;
 	}
 	public void moveLeft() {
