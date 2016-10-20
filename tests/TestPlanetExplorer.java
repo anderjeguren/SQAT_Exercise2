@@ -6,7 +6,9 @@ public class TestPlanetExplorer {
 
 	@Test
 	public void testThePlanet() {
-		PlanetExplorer planet = new PlanetExplorer(100,100);
+		PlanetExplorer planet = new PlanetExplorer(100,100,"");
+		
+		
 		
 	}
 }

@@ -7,3 +7,6 @@ EditAction 1476963026683 TestPlanetExplorer.java 140 1 0 0
 RefactoringAction 1476963273930 PlanetExplorer.java ADD PlanetExplorer() METHOD
 RefactoringAction 1476963283673 PlanetExplorer.java REMOVE PlanetExplorer() METHOD
 EditAction 1476963319854 TestPlanetExplorer.java 195 1 1 0
+CompilationAction 1476963319970 TestPlanetExplorer.java
+CompilationAction 1476963326138 TestPlanetExplorer.java
+EditAction 1476963476271 TestPlanetExplorer.java 204 1 1 0
