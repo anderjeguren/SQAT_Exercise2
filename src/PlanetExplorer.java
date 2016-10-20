@@ -9,7 +9,7 @@ public class PlanetExplorer {
 	private int planetLenghtY;
 
 	private Explorer exp;
-	private String obstacle[];
+	private String[] obstacle = new String[planetLenghtX*planetLenghtY];
 	
 	private void landExplorer() {
 		// TODO Auto-generated method stub
@@ -100,11 +100,8 @@ public class PlanetExplorer {
 		}
 	}
 
-	public boolean findObstacle(int num) {
+	public String findObstacle(int i) {
 		// TODO Auto-generated method stub
-		for(int i=0; i<obstacle.length;i++){
-			if(obstacle[i].isEmpty())
-				obstacle[i]="(x,y)";
-		}
+			return obstacle[i];
 	}
 }

@@ -69,7 +69,7 @@ public class TestPlanetExplorer {
 		
 		planet.placeObstacle(1,1);
 		
-		assertTrue(planet.findObstacle(1));
+		assertEquals("(1,1)",planet.findObstacle(0));
 
 	}
 	

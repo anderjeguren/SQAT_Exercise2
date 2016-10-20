@@ -519,3 +519,32 @@ CompilationAction 1476969138114 TestPlanetExplorer.java
 RefactoringAction 1476969143907 PlanetExplorer.java RENAME findObstacle(String)=>boolean findObstacle() METHOD
 RefactoringAction 1476969145412 PlanetExplorer.java RENAME findObstacle()=>boolean findObstacle(int) METHOD
 EditAction 1476969146133 PlanetExplorer.java 2839 6 19 0
+CompilationAction 1476969146341 PlanetExplorer.java
+CompilationAction 1476969152346 PlanetExplorer.java
+CompilationAction 1476969153050 PlanetExplorer.java
+CompilationAction 1476969153051 TestPlanetExplorer.java
+CompilationAction 1476969176681 PlanetExplorer.java
+CompilationAction 1476969176835 PlanetExplorer.java
+CompilationAction 1476969179885 PlanetExplorer.java
+CompilationAction 1476969199655 TestPlanetExplorer.java
+UnitTestCaseAction 1476969201310 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476969201311 TestPlanetExplorer.java FAIL
+RefactoringAction 1476969228016 PlanetExplorer.java REMOVE obstacle FIELD
+CompilationAction 1476969233853 PlanetExplorer.java
+CompilationAction 1476969233853 PlanetExplorer.java
+CompilationAction 1476969233854 PlanetExplorer.java
+RefactoringAction 1476969243036 PlanetExplorer.java ADD String FIELD
+CompilationAction 1476969250462 PlanetExplorer.java
+CompilationAction 1476969250463 PlanetExplorer.java
+CompilationAction 1476969250463 PlanetExplorer.java
+UnitTestCaseAction 1476969253060 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476969253061 TestPlanetExplorer.java FAIL
+RefactoringAction 1476969260560 PlanetExplorer.java REMOVE obstacle FIELD
+CompilationAction 1476969262403 PlanetExplorer.java
+CompilationAction 1476969262403 PlanetExplorer.java
+RefactoringAction 1476969266573 PlanetExplorer.java ADD String FIELD
+CompilationAction 1476969278304 PlanetExplorer.java
+CompilationAction 1476969278305 PlanetExplorer.java
+UnitTestCaseAction 1476969288659 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476969288659 TestPlanetExplorer.java FAIL
+EditAction 1476969303859 TestPlanetExplorer.java 1572 9 19 9
