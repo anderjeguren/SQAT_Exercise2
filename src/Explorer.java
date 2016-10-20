@@ -25,7 +25,7 @@ public class Explorer {
 		this.direction = string;
 
 	}
-	public void moveUp(int planetLenght) {
+	public void moveUp(int planetLenghtX) {
 		if (this.x==planetLenghtX--)
 			this.x = 0;
 		else
@@ -33,18 +33,18 @@ public class Explorer {
 	}
 	public void moveDown(int planetLenghtX) {
 		if (this.x==0)
-			this.x = planetLenghtX--;
+			this.x = planetLenghtX-1;
 		else
 			this.x--;
 	}
 	public void moveLeft(int planetLenghtY) {
 		if (this.y==0)
-			this.y = planetLenghtY--;
+			this.y = planetLenghtY-1;
 		else
 		 this.y--;
 	}
 	public void moveRight(int planetLenghtY) {
-		if (this.y==planetLenghtY--)
+		if (this.y==planetLenghtY-1)
 			this.y = 0;
 		else
 			this.y++;
