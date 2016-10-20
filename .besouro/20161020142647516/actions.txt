@@ -436,3 +436,8 @@ CompilationAction 1476968377079 Explorer.java
 UnitTestCaseAction 1476968379236 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476968379236 TestPlanetExplorer.java FAIL
 EditAction 1476968421873 Explorer.java 945 9 12 0
+UnitTestCaseAction 1476968429644 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476968429644 TestPlanetExplorer.java OK
+UnitTestCaseAction 1476968429873 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476968429874 TestPlanetExplorer.java OK
+EditAction 1476968441392 Explorer.java 945 9 12 0

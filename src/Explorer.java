@@ -26,7 +26,7 @@ public class Explorer {
 
 	}
 	public void moveUp(int planetLenghtX) {
-		if (this.x==planetLenghtX--)
+		if (this.x==planetLenghtX-1)
 			this.x = 0;
 		else
 			this.x++;
