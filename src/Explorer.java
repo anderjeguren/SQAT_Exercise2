@@ -31,20 +31,20 @@ public class Explorer {
 		else
 			this.x++;
 	}
-	public void moveDown() {
+	public void moveDown(int planetLenghtX) {
 		if (this.x==0)
 			this.x = 99;
 		else
 			this.x--;
 	}
-	public void moveLeft() {
+	public void moveLeft(int planetLenghtY) {
 		if (this.y==0)
-			this.y = 99;
+			this.y = planetLenght;
 		else
 		 this.y--;
 	}
-	public void moveRight() {
-		if (this.y==99)
+	public void moveRight(int planetLenghtY) {
+		if (this.y==planetLenght)
 			this.y = 0;
 		else
 			this.y++;

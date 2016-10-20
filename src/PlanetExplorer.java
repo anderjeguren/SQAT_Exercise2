@@ -5,7 +5,9 @@
 
 public class PlanetExplorer {
 	
-	private int planetLenght;
+	private int planetLenghtX;
+	private int planetLenghtY;
+
 	private Explorer exp;
 	
 	private void landExplorer() {
@@ -22,7 +24,9 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
-		planetLenght = x*y;
+		this.planetLenghtX = x;
+		this.planetLenghtY = y;
+
 	}
 	
 	public String executeCommand(String command){
@@ -56,16 +60,16 @@ public class PlanetExplorer {
 				break;
 			//Move the explorer
 			case "w":
-				exp.moveUp(planetLenght);
+				exp.moveUp(planetLenghtX);
 				break;
 			case "s":
-				exp.moveDown();
+				exp.moveDown(planetLenghtX);
 				break;
 			case "a":
-				exp.moveLeft();
+				exp.moveLeft(planetLenghtY);
 				break;
 			case "d":
-				exp.moveRight();
+				exp.moveRight(planetLenghtY);
 				break;
 			}
 		}

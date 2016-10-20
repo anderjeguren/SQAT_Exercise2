@@ -407,3 +407,16 @@ CompilationAction 1476968097681 PlanetExplorer.java
 CompilationAction 1476968103795 PlanetExplorer.java
 RefactoringAction 1476968111740 Explorer.java RENAME moveUp()=>void moveUp(int) METHOD
 EditAction 1476968127580 Explorer.java 851 9 12 0
+RefactoringAction 1476968168925 PlanetExplorer.java RENAME planetLenght=>int planetLenghtX FIELD
+RefactoringAction 1476968172432 PlanetExplorer.java ADD int planetLenghtX/2 FIELD
+RefactoringAction 1476968174440 PlanetExplorer.java RENAME planetLenghtX/2=>int planetLenghtY FIELD
+CompilationAction 1476968198090 PlanetExplorer.java
+CompilationAction 1476968226180 PlanetExplorer.java
+CompilationAction 1476968226332 PlanetExplorer.java
+CompilationAction 1476968226332 PlanetExplorer.java
+CompilationAction 1476968226332 PlanetExplorer.java
+CompilationAction 1476968226333 PlanetExplorer.java
+RefactoringAction 1476968233743 Explorer.java RENAME moveDown()=>void moveDown(int) METHOD
+RefactoringAction 1476968239566 Explorer.java RENAME moveLeft()=>void moveLeft(int) METHOD
+RefactoringAction 1476968244837 Explorer.java RENAME moveRight()=>void moveRight(int) METHOD
+EditAction 1476968246086 Explorer.java 922 9 12 0
