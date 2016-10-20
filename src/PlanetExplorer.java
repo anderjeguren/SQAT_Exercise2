@@ -35,4 +35,9 @@ public class PlanetExplorer {
 		return null;
 	}
 
+	public int getSize() {
+		// TODO Auto-generated method stub
+		return planet.length;
+	}
+
 }

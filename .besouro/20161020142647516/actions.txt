@@ -30,3 +30,7 @@ RefactoringAction 1476963968955 PlanetExplorer.java REMOVE ex FIELD
 RefactoringAction 1476963970459 PlanetExplorer.java ADD String FIELD
 RefactoringAction 1476964081173 PlanetExplorer.java RENAME box=>String FIELD
 EditAction 1476964179813 TestPlanetExplorer.java 227 1 0 0
+CompilationAction 1476964179910 TestPlanetExplorer.java
+CompilationAction 1476964179911 TestPlanetExplorer.java
+RefactoringAction 1476964198977 PlanetExplorer.java ADD Object getSize() METHOD
+EditAction 1476964218790 PlanetExplorer.java 1460 3 4 0
