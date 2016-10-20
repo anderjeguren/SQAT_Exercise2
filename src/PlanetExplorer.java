@@ -9,7 +9,7 @@ public class PlanetExplorer {
 	private int planetLenghtY;
 
 	private Explorer exp;
-	private boolean obstacle[];
+	private String obstacle[];
 	
 	private void landExplorer() {
 		// TODO Auto-generated method stub
@@ -94,8 +94,9 @@ public class PlanetExplorer {
 
 	public void placeObstacle(int x, int y) {
 		// TODO Auto-generated method stub
-		for(int i=0, i<obstacles.lenght();i++){
-			
+		for(int i=0; i<obstacle.length;i++){
+			if(obstacle[i].isEmpty())
+				obstacle[i]="(x,y)";
 		}
 	}
 }

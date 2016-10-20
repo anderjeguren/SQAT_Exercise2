@@ -471,3 +471,47 @@ CompilationAction 1476968810204 PlanetExplorer.java
 CompilationAction 1476968810204 PlanetExplorer.java
 CompilationAction 1476968810204 TestPlanetExplorer.java
 EditAction 1476968826030 PlanetExplorer.java 2615 5 17 0
+CompilationAction 1476968826227 PlanetExplorer.java
+CompilationAction 1476968826227 PlanetExplorer.java
+CompilationAction 1476968833201 PlanetExplorer.java
+CompilationAction 1476968833357 PlanetExplorer.java
+CompilationAction 1476968842160 PlanetExplorer.java
+CompilationAction 1476968842314 PlanetExplorer.java
+CompilationAction 1476968896078 PlanetExplorer.java
+CompilationAction 1476968896239 PlanetExplorer.java
+CompilationAction 1476968896239 PlanetExplorer.java
+CompilationAction 1476968896239 PlanetExplorer.java
+CompilationAction 1476968896239 PlanetExplorer.java
+CompilationAction 1476968896239 PlanetExplorer.java
+CompilationAction 1476968896239 TestPlanetExplorer.java
+RefactoringAction 1476968915604 PlanetExplorer.java RENAME placeObstacle(int, int)=>void placeObstacle() METHOD
+RefactoringAction 1476968924112 PlanetExplorer.java RENAME placeObstacle()=>void placeObstacle(int, int) METHOD
+CompilationAction 1476968941431 PlanetExplorer.java
+CompilationAction 1476968941431 PlanetExplorer.java
+CompilationAction 1476968941431 PlanetExplorer.java
+CompilationAction 1476968941432 PlanetExplorer.java
+CompilationAction 1476968941432 PlanetExplorer.java
+CompilationAction 1476968941591 PlanetExplorer.java
+CompilationAction 1476968941591 PlanetExplorer.java
+CompilationAction 1476968941591 PlanetExplorer.java
+CompilationAction 1476968941591 PlanetExplorer.java
+CompilationAction 1476968941591 PlanetExplorer.java
+CompilationAction 1476968941592 PlanetExplorer.java
+CompilationAction 1476968941592 TestPlanetExplorer.java
+CompilationAction 1476968973438 PlanetExplorer.java
+CompilationAction 1476968973439 PlanetExplorer.java
+CompilationAction 1476968973439 PlanetExplorer.java
+CompilationAction 1476968973439 PlanetExplorer.java
+CompilationAction 1476968973439 PlanetExplorer.java
+CompilationAction 1476968973601 PlanetExplorer.java
+CompilationAction 1476968995876 PlanetExplorer.java
+CompilationAction 1476969039109 PlanetExplorer.java
+CompilationAction 1476969051881 PlanetExplorer.java
+CompilationAction 1476969052039 PlanetExplorer.java
+CompilationAction 1476969068907 PlanetExplorer.java
+CompilationAction 1476969069063 PlanetExplorer.java
+CompilationAction 1476969069063 PlanetExplorer.java
+CompilationAction 1476969091902 TestPlanetExplorer.java
+CompilationAction 1476969092066 TestPlanetExplorer.java
+RefactoringAction 1476969096544 PlanetExplorer.java ADD boolean findObstacle(String) METHOD
+EditAction 1476969137985 TestPlanetExplorer.java 1562 9 19 9
