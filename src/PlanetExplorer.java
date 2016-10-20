@@ -5,7 +5,7 @@
 
 public class PlanetExplorer {
 	
-	private boolean planet[][];
+	private int planetLenght;
 	private Explorer exp;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
@@ -17,8 +17,7 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
-		boolean newPlanet[][] = new boolean[x][y];
-		planet = newPlanet;
+		planetLenght = x*y;
 	}
 	
 	public String executeCommand(String command){
@@ -38,7 +37,12 @@ public class PlanetExplorer {
 
 	public int getSize() {
 		// TODO Auto-generated method stub
-		return planet.length;
+		return planetLenght;
+	}
+
+	public void landExplorer() {
+		// TODO Auto-generated method stub
+		exp
 	}
 
 }

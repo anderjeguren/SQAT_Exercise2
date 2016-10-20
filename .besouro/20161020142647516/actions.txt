@@ -100,3 +100,29 @@ CompilationAction 1476964761383 TestPlanetExplorer.java
 RefactoringAction 1476964772364 Explorer.java ADD int x FIELD
 RefactoringAction 1476964776370 Explorer.java ADD int y FIELD
 EditAction 1476964784259 Explorer.java 87 0 0 0
+CompilationAction 1476964784441 Explorer.java
+CompilationAction 1476964784441 Explorer.java
+CompilationAction 1476964784441 Explorer.java
+RefactoringAction 1476964829266 PlanetExplorer.java RENAME planet=>int planetL FIELD
+RefactoringAction 1476964832277 PlanetExplorer.java RENAME planetL=>int planetLenght FIELD
+CompilationAction 1476964832622 PlanetExplorer.java
+CompilationAction 1476964832623 PlanetExplorer.java
+CompilationAction 1476964832623 PlanetExplorer.java
+CompilationAction 1476964832623 TestPlanetExplorer.java
+CompilationAction 1476964851285 PlanetExplorer.java
+CompilationAction 1476964851286 PlanetExplorer.java
+CompilationAction 1476964851286 PlanetExplorer.java
+CompilationAction 1476964851448 PlanetExplorer.java
+CompilationAction 1476964851448 PlanetExplorer.java
+CompilationAction 1476964851448 PlanetExplorer.java
+CompilationAction 1476964870435 PlanetExplorer.java
+CompilationAction 1476964870436 PlanetExplorer.java
+CompilationAction 1476964870552 PlanetExplorer.java
+CompilationAction 1476964870552 PlanetExplorer.java
+CompilationAction 1476964873226 TestPlanetExplorer.java
+CompilationAction 1476964873390 TestPlanetExplorer.java
+CompilationAction 1476964873391 TestPlanetExplorer.java
+CompilationAction 1476964873391 TestPlanetExplorer.java
+CompilationAction 1476964880492 TestPlanetExplorer.java
+CompilationAction 1476964880649 TestPlanetExplorer.java
+EditAction 1476964891042 Explorer.java 87 0 0 0

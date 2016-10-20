@@ -2,6 +2,6 @@
 public class Explorer {
 
 	private int x;
-	pribate int y;
+	private int y;
 	private direction;
 }
