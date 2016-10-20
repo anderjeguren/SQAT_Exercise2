@@ -8,6 +8,11 @@ public class PlanetExplorer {
 	private int planetLenght;
 	private Explorer exp;
 	
+	private void landExplorer() {
+		// TODO Auto-generated method stub
+		exp = new Explorer(0,0,"N");
+	}
+	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -31,64 +36,54 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
+		landExplorer();//Start the exploring
+		String[] str = command.split("");
 		
-		return null;
+		for(int i=0; i<str.length; i++){
+			switch(str[i]){
+			//Change Direction
+			case "i":
+				exp.redirect("N");
+				break;
+			case "k":
+				exp.redirect("S");
+				break;
+			case "j":
+				exp.redirect("W");
+				break;
+			case "l":
+				exp.redirect("E");
+				break;
+			//Move the explorer
+			case "w":
+				exp.moveUp();
+				break;
+			case "s":
+				exp.moveDown();
+				break;
+			case "a":
+				exp.moveLeft();
+				break;
+			case "d":
+				exp.moveRight();
+				break;
+			}
+		}
+		StringBuilder sb = new StringBuilder();
+		sb.append("(");
+		sb.append(exp.getX());
+		sb.append(",");
+		sb.append(exp.getY());
+		sb.append(",");
+		sb.append(exp.getDirection());
+		sb.append(")");
+		
+		String status = sb.toString();
+		return status;
 	}
 
 	public int getSize() {
 		// TODO Auto-generated method stub
 		return planetLenght;
 	}
-
-	public void landExplorer() {
-		// TODO Auto-generated method stub
-		exp = new Explorer(0,0,"N");
-	}
-
-	public String getExplorerStatus() {
-		// TODO Auto-generated method stub
-		StringBuilder sb = new StringBuilder();
-		sb.append(exp.getX());
-		sb.append(exp.getY());
-		sb.append(exp.getDirection());
-		String status = sb.toString();
-		return status;
-	}
-
-	public void changeDirection(String string) {
-		// TODO Auto-generated method stub
-		switch(string){
-		case "i":
-			exp.redirect("N");
-			break;
-		case "k":
-			exp.redirect("S");
-			break;
-		case "j":
-			exp.redirect("W");
-			break;
-		case "l":
-			exp.redirect("E");
-			break;
-		}
-	}
-
-	public void moveExplorer(String string) {
-		// TODO Auto-generated method stub
-		switch(string){
-		case "w":
-			exp.moveUp();
-			break;
-		case "s":
-			exp.moveDown();
-			break;
-		case "a":
-			exp.moveLeft();
-			break;
-		case "d":
-			exp.moveRight();
-			break;
-		}
-	}
-
 }
