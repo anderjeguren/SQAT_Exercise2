@@ -16,3 +16,17 @@ CompilationAction 1476963544118 TestPlanetExplorer.java
 RefactoringAction 1476963572629 PlanetExplorer.java ADD Object getSize() METHOD
 CompilationAction 1476963694317 TestPlanetExplorer.java
 EditAction 1476963698990 PlanetExplorer.java 1386 3 2 0
+CompilationAction 1476963699165 PlanetExplorer.java
+UnitTestCaseAction 1476963702255 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476963702256 TestPlanetExplorer.java OK
+RefactoringAction 1476963711611 PlanetExplorer.java REMOVE planet FIELD
+RefactoringAction 1476963718124 PlanetExplorer.java REMOVE getSize() METHOD
+RefactoringAction 1476963873358 PlanetExplorer.java ADD Vehicle vc FIELD
+RefactoringAction 1476963892644 Vehicle.java ADD Vehicle.java CLASS
+FileOpenedAction 1476963892806 Vehicle.java 31 0 0 0
+RefactoringAction 1476963922532 Vehicle.java REMOVE Vehicle.java CLASS
+RefactoringAction 1476963966449 PlanetExplorer.java RENAME vc=>String FIELD
+RefactoringAction 1476963968955 PlanetExplorer.java REMOVE ex FIELD
+RefactoringAction 1476963970459 PlanetExplorer.java ADD String FIELD
+RefactoringAction 1476964081173 PlanetExplorer.java RENAME box=>String FIELD
+EditAction 1476964179813 TestPlanetExplorer.java 227 1 0 0
