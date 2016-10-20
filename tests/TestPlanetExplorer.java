@@ -36,6 +36,6 @@ public class TestPlanetExplorer {
 		planet.landExplorer();
 		planet.changeDirection("a");
 		
-		assertEquals("00E",planet.getExplorerStatus());
+		assertEquals("00W",planet.getExplorerStatus());
 	}
 }
