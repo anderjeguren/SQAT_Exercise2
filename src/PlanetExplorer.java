@@ -60,7 +60,8 @@ public class PlanetExplorer {
 		// TODO Auto-generated method stub
 		switch(string){
 		case "w":
-			exp.redirect("N")
+			exp.redirect("N");
+			break;
 		}
 	}
 
