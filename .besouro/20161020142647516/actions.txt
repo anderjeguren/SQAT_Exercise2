@@ -270,3 +270,18 @@ CompilationAction 1476966250092 TestPlanetExplorer.java
 EditAction 1476966266242 TestPlanetExplorer.java 1283 6 21 6
 CompilationAction 1476966266392 TestPlanetExplorer.java
 EditAction 1476966269211 TestPlanetExplorer.java 1283 6 21 6
+CompilationAction 1476966269294 TestPlanetExplorer.java
+RefactoringAction 1476966277060 PlanetExplorer.java ADD void moveExplorer(String) METHOD
+RefactoringAction 1476966320794 Explorer.java ADD int getX()/2 METHOD
+RefactoringAction 1476966320795 Explorer.java ADD int getY()/2 METHOD
+RefactoringAction 1476966324800 Explorer.java RENAME getX()/2=>int setX() METHOD
+RefactoringAction 1476966327305 Explorer.java RENAME getY()/2=>int setY() METHOD
+RefactoringAction 1476966346822 Explorer.java REMOVE setY() METHOD
+RefactoringAction 1476966350829 Explorer.java RENAME setX()=>int setPosition() METHOD
+CompilationAction 1476966352030 Explorer.java
+CompilationAction 1476966362589 Explorer.java
+RefactoringAction 1476966372354 Explorer.java RENAME setPosition()=>void setPosition(int, int) METHOD
+EditAction 1476966381388 PlanetExplorer.java 2390 7 13 0
+UnitTestCaseAction 1476966381804 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476966381804 TestPlanetExplorer.java FAIL
+EditAction 1476966444198 PlanetExplorer.java 2414 7 13 0

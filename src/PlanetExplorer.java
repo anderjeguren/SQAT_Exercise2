@@ -74,4 +74,22 @@ public class PlanetExplorer {
 		}
 	}
 
+	public void moveExplorer(String string) {
+		// TODO Auto-generated method stub
+		switch(string){
+		case "w":
+			exp.setPosition(exp.getX()++, exp.getY());
+			break;
+		case "s":
+			exp.redirect("S");
+			break;
+		case "a":
+			exp.redirect("W");
+			break;
+		case "d":
+			exp.redirect("E");
+			break;
+		}
+	}
+
 }
