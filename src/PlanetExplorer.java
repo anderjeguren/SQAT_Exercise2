@@ -16,7 +16,7 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
-		BoxInfo newPlanet[][] = new BoxInfo[x][y];
+		boolean newPlanet[][] = new boolean[x][y];
 		planet = newPlanet;
 	}
 	
