@@ -56,7 +56,7 @@ public class PlanetExplorer {
 				break;
 			//Move the explorer
 			case "w":
-				exp.moveUp();
+				exp.moveUp(planetLenght);
 				break;
 			case "s":
 				exp.moveDown();

@@ -25,8 +25,8 @@ public class Explorer {
 		this.direction = string;
 
 	}
-	public void moveUp() {
-		if (this.x==99)
+	public void moveUp(int planetLenght) {
+		if (this.x==planetLenght)
 			this.x = 0;
 		else
 			this.x++;
