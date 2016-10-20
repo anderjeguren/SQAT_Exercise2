@@ -78,16 +78,16 @@ public class PlanetExplorer {
 		// TODO Auto-generated method stub
 		switch(string){
 		case "w":
-			exp.setPosition(exp.getX()+1, exp.getY());
+			exp.moveUp();
 			break;
 		case "s":
-			exp.setPosition(exp.getX()-1, exp.getY());
+			exp.moveDown();
 			break;
 		case "a":
-			exp.setPosition(exp.getX(), exp.getY()-1);
+			exp.moveLeft();
 			break;
 		case "d":
-			exp.setPosition(exp.getX(), exp.getY()+1);
+			exp.moveRight();
 			break;
 		}
 	}
