@@ -627,3 +627,7 @@ UnitTestCaseAction 1476970509453 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476970509453 TestPlanetExplorer.java OK
 RefactoringAction 1476970580300 PlanetExplorer.java ADD boolean obstacleEmpty(int) METHOD
 EditAction 1476970618316 PlanetExplorer.java 3265 7 32 0
+UnitTestCaseAction 1476970620575 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476970620575 TestPlanetExplorer.java OK
+CompilationAction 1476970627713 PlanetExplorer.java
+CompilationAction 1476970635332 PlanetExplorer.java
