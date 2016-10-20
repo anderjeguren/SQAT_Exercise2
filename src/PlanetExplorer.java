@@ -49,6 +49,11 @@ public class PlanetExplorer {
 
 	public String getExplorerStatus() {
 		// TODO Auto-generated method stub
+		StringBuilder sb = new StringBuilder();
+		sb.append(exp.getX());
+		sb.append(exp.getY());
+		sb.append(exp.getDirection());
+		String status = sb.toString();
 		return status;
 	}
 
