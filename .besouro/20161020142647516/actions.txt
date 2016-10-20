@@ -241,3 +241,8 @@ CompilationAction 1476965961105 PlanetExplorer.java
 EditAction 1476965969351 PlanetExplorer.java 1976 6 12 0
 EditAction 1476966011403 PlanetExplorer.java 2108 6 12 0
 EditAction 1476966029952 TestPlanetExplorer.java 630 3 9 3
+UnitTestCaseAction 1476966032204 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476966032205 TestPlanetExplorer.java OK
+RefactoringAction 1476966040261 TestPlanetExplorer.java RENAME testTurning()=>void testTurningEast() METHOD
+RefactoringAction 1476966045269 TestPlanetExplorer.java ADD void testTurningEast()/2 METHOD
+EditAction 1476966048973 TestPlanetExplorer.java 849 4 13 4

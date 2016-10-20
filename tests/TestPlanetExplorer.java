@@ -20,7 +20,17 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testTurning() {
+	public void testTurningEast() {
+		PlanetExplorer planet = new PlanetExplorer(100,100,"");
+		
+		planet.landExplorer();
+		planet.changeDirection("d");
+		
+		assertEquals("00E",planet.getExplorerStatus());
+	}
+	
+	@Test
+	public void testTurningWest() {
 		PlanetExplorer planet = new PlanetExplorer(100,100,"");
 		
 		planet.landExplorer();
