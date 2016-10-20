@@ -56,4 +56,12 @@ public class PlanetExplorer {
 		return status;
 	}
 
+	public void changeDirection(String string) {
+		// TODO Auto-generated method stub
+		switch(string){
+		case "w":
+			exp.redirect("N")
+		}
+	}
+
 }

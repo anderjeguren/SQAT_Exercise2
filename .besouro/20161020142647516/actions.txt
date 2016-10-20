@@ -230,3 +230,6 @@ EditAction 1476965743676 TestPlanetExplorer.java 547 3 7 2
 EditAction 1476965819110 TestPlanetExplorer.java 577 3 8 2
 CompilationAction 1476965819305 TestPlanetExplorer.java
 EditAction 1476965840650 TestPlanetExplorer.java 630 3 9 3
+CompilationAction 1476965840777 TestPlanetExplorer.java
+RefactoringAction 1476965845058 PlanetExplorer.java ADD void changeDirection(String) METHOD
+EditAction 1476965933263 PlanetExplorer.java 1965 6 11 0
