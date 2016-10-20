@@ -69,7 +69,7 @@ public class TestPlanetExplorer {
 		
 		planet.placeObstacle(1,1);
 		
-		assertTrue("(99,99,W)",planet.obstacle("ajs"));
+		assertTrue(planet.obstacle("ajs"));
 
 	}
 	

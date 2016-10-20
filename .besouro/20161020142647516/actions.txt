@@ -457,3 +457,17 @@ UnitTestSessionAction 1476968645751 TestPlanetExplorer.java OK
 EditAction 1476968710836 TestPlanetExplorer.java 1580 9 19 9
 CompilationAction 1476968711037 TestPlanetExplorer.java
 EditAction 1476968720200 TestPlanetExplorer.java 1574 9 19 9
+CompilationAction 1476968720402 TestPlanetExplorer.java
+CompilationAction 1476968725109 TestPlanetExplorer.java
+CompilationAction 1476968725265 TestPlanetExplorer.java
+CompilationAction 1476968725265 TestPlanetExplorer.java
+CompilationAction 1476968727747 TestPlanetExplorer.java
+CompilationAction 1476968727747 TestPlanetExplorer.java
+CompilationAction 1476968727860 TestPlanetExplorer.java
+RefactoringAction 1476968805403 PlanetExplorer.java ADD boolean obsta FIELD
+RefactoringAction 1476968807407 PlanetExplorer.java RENAME obsta=>boolean obstacle FIELD
+CompilationAction 1476968810204 PlanetExplorer.java
+CompilationAction 1476968810204 PlanetExplorer.java
+CompilationAction 1476968810204 PlanetExplorer.java
+CompilationAction 1476968810204 TestPlanetExplorer.java
+EditAction 1476968826030 PlanetExplorer.java 2615 5 17 0
