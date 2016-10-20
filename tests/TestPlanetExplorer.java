@@ -55,6 +55,17 @@ public class TestPlanetExplorer {
 		
 		planet.landExplorer();
 		planet.moveExplorer("a");
+		
+		assertEquals("0-1N",planet.getExplorerStatus());
+
+	}
+	
+	@Test
+	public void testMoveExplorerLeftWest() {
+		PlanetExplorer planet = new PlanetExplorer(100,100,"");
+		
+		planet.landExplorer();
+		planet.moveExplorer("a");
 		planet.changeDirection("j");
 		
 		assertEquals("0-1W",planet.getExplorerStatus());
