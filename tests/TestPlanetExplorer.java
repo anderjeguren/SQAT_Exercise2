@@ -54,7 +54,7 @@ public class TestPlanetExplorer {
 		PlanetExplorer planet = new PlanetExplorer(100,100,"");
 		
 		planet.landExplorer();
-		planet.moveExplorer("s");
+		planet.moveExplorer("a");
 		
 		assertEquals("0-1W",planet.getExplorerStatus());
 
