@@ -47,11 +47,9 @@ public class PlanetExplorer {
 		exp.setY(0);
 	}
 
-	public boolean getPosition(int i, int j) {
+	public String getExplorerStatus() {
 		// TODO Auto-generated method stub
-		if (i*j == exp.getX()*exp.getY())
-			return true;
-		return false;
+		return status;
 	}
 
 }
