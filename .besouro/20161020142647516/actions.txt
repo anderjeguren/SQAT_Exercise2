@@ -43,3 +43,22 @@ UnitTestCaseAction 1476964231140 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476964231141 TestPlanetExplorer.java FAIL
 EditAction 1476964240373 TestPlanetExplorer.java 240 1 2 1
 EditAction 1476964264588 TestPlanetExplorer.java 261 1 2 1
+UnitTestCaseAction 1476964269163 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476964269164 TestPlanetExplorer.java OK
+RefactoringAction 1476964307398 TestPlanetExplorer.java ADD void testLanding() METHOD
+RefactoringAction 1476964349925 PlanetExplorer.java REMOVE planet FIELD
+RefactoringAction 1476964352935 PlanetExplorer.java ADD BoxInfo FIELD
+CompilationAction 1476964354154 PlanetExplorer.java
+CompilationAction 1476964360012 PlanetExplorer.java
+CompilationAction 1476964360158 PlanetExplorer.java
+CompilationAction 1476964365558 PlanetExplorer.java
+CompilationAction 1476964365671 PlanetExplorer.java
+RefactoringAction 1476964379265 BoxInfo.java ADD BoxInfo.java CLASS
+FileOpenedAction 1476964379369 BoxInfo.java 31 0 0 0
+RefactoringAction 1476964390897 BoxInfo.java ADD String direction FIELD
+RefactoringAction 1476964423433 BoxInfo.java ADD int occupied FIELD
+RefactoringAction 1476964432447 BoxInfo.java RENAME occupied=>boolean occupy FIELD
+RefactoringAction 1476964452969 BoxInfo.java ADD boolean obsta FIELD
+RefactoringAction 1476964453972 BoxInfo.java RENAME obsta=>boolean obstac FIELD
+RefactoringAction 1476964455976 BoxInfo.java RENAME obstac=>boolean obstacle FIELD
+EditAction 1476964456676 BoxInfo.java 113 0 0 0
