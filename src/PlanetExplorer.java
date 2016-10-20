@@ -59,16 +59,16 @@ public class PlanetExplorer {
 	public void changeDirection(String string) {
 		// TODO Auto-generated method stub
 		switch(string){
-		case "w":
+		case "i":
 			exp.redirect("N");
 			break;
-		case "s":
+		case "k":
 			exp.redirect("S");
 			break;
-		case "a":
+		case "j":
 			exp.redirect("W");
 			break;
-		case "d":
+		case "l":
 			exp.redirect("E");
 			break;
 		}
