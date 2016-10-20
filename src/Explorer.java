@@ -39,13 +39,13 @@ public class Explorer {
 	}
 	public void moveLeft() {
 		if (this.y==0)
-			this.x = 99;
+			this.y = 99;
 		else
 		 this.y--;
 	}
 	public void moveRight() {
-		if (this.x==99)
-			this.x = 0;
+		if (this.y==99)
+			this.y = 0;
 		else
 			this.y++;
 	}
