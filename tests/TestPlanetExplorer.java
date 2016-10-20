@@ -15,8 +15,8 @@ public class TestPlanetExplorer {
 	public void testLanding() {
 		PlanetExplorer planet = new PlanetExplorer(100,100,"");
 		
-		planet.landExplorer();
-		assertEquals("00N",planet.getExplorerStatus());
+
+		assertEquals("00N",planet.executeCommand(""));
 	}
 	
 	@Test
@@ -26,7 +26,7 @@ public class TestPlanetExplorer {
 		planet.landExplorer();
 		planet.changeDirection("l");
 		
-		assertEquals("(0,0,E)",planet.getExplorerStatus());
+		assertEquals("(0,0,E)",planet.executeCommand("l"));
 	}
 	
 	@Test
@@ -36,7 +36,7 @@ public class TestPlanetExplorer {
 		planet.landExplorer();
 		planet.changeDirection("j");
 		
-		assertEquals("00W",planet.getExplorerStatus());
+		assertEquals("00W",planet.executeCommand("j"));
 	}
 	
 	@Test
@@ -46,17 +46,16 @@ public class TestPlanetExplorer {
 		planet.landExplorer();
 		planet.moveExplorer("w");
 		
-		assertEquals("10N",planet.getExplorerStatus());
+		assertEquals("10N",planet.executeCommand("w"));
 	}
 	
 	@Test
 	public void testMoveExplorerLeft() {
 		PlanetExplorer planet = new PlanetExplorer(100,100,"");
 		
-		planet.landExplorer();
-		planet.moveExplorer("a");
+
 		
-		assertEquals("0-1N",planet.getExplorerStatus());
+		assertEquals("(0,-1,N)",planet.executeCommand("a"));
 
 	}
 	
@@ -64,23 +63,8 @@ public class TestPlanetExplorer {
 	public void testMoveExplorerLeftWest() {
 		PlanetExplorer planet = new PlanetExplorer(100,100,"");
 		
-		planet.landExplorer();
-		planet.moveExplorer("a");
-		planet.changeDirection("j");
-		
-		assertEquals("0-1W",planet.getExplorerStatus());
+		assertEquals("(0,-1,W)",planet.executeCommand("aj"));
 
 	}
 	
-	@Test
-	public void testMoveExplorerLeftWest() {
-		PlanetExplorer planet = new PlanetExplorer(100,100,"");
-		
-		planet.landExplorer();
-		planet.moveExplorer("a");
-		planet.changeDirection("j");
-		
-		assertEquals("0-1W",planet.getExplorerStatus());
-
-	}
 }
