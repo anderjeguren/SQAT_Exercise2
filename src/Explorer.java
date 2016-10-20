@@ -20,6 +20,11 @@ public class Explorer {
 	public String getDirection() {
 		return direction;
 	}
+	public void redirect(String string) {
+		// TODO Auto-generated method stub
+		this.direction = string;
+
+	}
 	
 	
 }
