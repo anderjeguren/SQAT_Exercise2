@@ -13,6 +13,9 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testLanding() {
+		PlanetExplorer planet = new PlanetExplorer(100,100,"");
 		
+		planet.landExplorer();
+		asser()
 	}
 }
