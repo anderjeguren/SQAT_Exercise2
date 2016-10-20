@@ -50,17 +50,11 @@ public class PlanetExplorer {
 		for(int i=0; i<str.length; i++){
 			switch(str[i]){
 			//Change Direction
-			case "i":
-				exp.redirectLeft("N");
-				break;
-			case "k":
-				exp.redirectRight("S");
-				break;
-			case "j":
-				exp.redirect("W");
-				break;
 			case "l":
-				exp.redirect("E");
+				exp.redirectLeft();
+				break;
+			case "r":
+				exp.redirectRight();
 				break;
 			//Move the explorer
 			case "w":
