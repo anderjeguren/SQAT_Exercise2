@@ -43,7 +43,7 @@ public class TestPlanetExplorer {
 	public void testMoveExplorerLeft() {
 		PlanetExplorer planet = new PlanetExplorer(100,100,"");	
 		
-		assertEquals("(0,-1,N)",planet.executeCommand("a"));
+		assertEquals("(0,99,N)",planet.executeCommand("a"));
 
 	}
 	
@@ -51,7 +51,7 @@ public class TestPlanetExplorer {
 	public void testMoveExplorerLeftWest() {
 		PlanetExplorer planet = new PlanetExplorer(100,100,"");
 		
-		assertEquals("(0,-1,W)",planet.executeCommand("aj"));
+		assertEquals("(0,99,W)",planet.executeCommand("aj"));
 
 	}
 	
