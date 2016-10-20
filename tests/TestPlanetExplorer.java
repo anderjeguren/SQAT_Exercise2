@@ -67,6 +67,9 @@ public class TestPlanetExplorer {
 	public void testPlaceObstacle() {
 		PlanetExplorer planet = new PlanetExplorer(100,100,"");
 		
+		planet.placeObstacle(1,1);
+		planet.placeObstacle(4,5);
+
 		assertEquals("(99,99,W)",planet.executeCommand("ajs"));
 
 	}
