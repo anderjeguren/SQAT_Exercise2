@@ -623,3 +623,7 @@ EditAction 1476970421944 PlanetExplorer.java 3184 6 30 0
 UnitTestCaseAction 1476970478226 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476970478226 TestPlanetExplorer.java FAIL
 EditAction 1476970507946 TestPlanetExplorer.java 1605 9 20 9
+UnitTestCaseAction 1476970509453 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476970509453 TestPlanetExplorer.java OK
+RefactoringAction 1476970580300 PlanetExplorer.java ADD boolean obstacleEmpty(int) METHOD
+EditAction 1476970618316 PlanetExplorer.java 3265 7 32 0

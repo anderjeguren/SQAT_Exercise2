@@ -99,11 +99,18 @@ public class PlanetExplorer {
 		
 		String status = sb.toString();
 		for(int i=0; i<obstacle.length;i++){
-			if(obstacle[i]==null){
+			if(obstacleEmpty(i)){
 				obstacle[i]=status;
 				return;
 			}
 		}
+	}
+
+	private boolean obstacleEmpty(int i) {
+		// TODO Auto-generated method stub
+		if(obstacle[i]==null)
+			return true;
+		return false;
 	}
 
 	public String findObstacle() {
@@ -111,7 +118,7 @@ public class PlanetExplorer {
 		StringBuilder sb = new StringBuilder();
 
 		for(int i=0; i<obstacle.length;i++){
-			if(obstacle[i]!=null)
+			if(!obstacleEmpty(i))
 				sb.append(obstacle[i]);
 		}
 		String status = sb.toString();
