@@ -94,14 +94,28 @@ public class PlanetExplorer {
 
 	public void placeObstacle(int x, int y) {
 		// TODO Auto-generated method stub
+		StringBuilder sb = new StringBuilder();
+		sb.append("(");
+		sb.append(x);
+		sb.append(",");
+		sb.append(y);
+		sb.append(")");
+		
+		String status = sb.toString();
 		for(int i=0; i<obstacle.length;i++){
-			if(obstacle[i].isEmpty())
-				obstacle[i]="(x,y)";
+			if(obstacle[i].isEmpty()){
+				obstacle[i]=status;
+				return;
+			}
 		}
 	}
 
 	public String findObstacle(int i) {
 		// TODO Auto-generated method stub
+		for(int i=0; i<obstacle.length;i++){
+			if(obstacle[i].isEmpty()){
+				obstacle[i]=status;
+			}
 			return obstacle[i];
 	}
 }
