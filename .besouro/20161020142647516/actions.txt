@@ -328,3 +328,7 @@ EditAction 1476967109875 Explorer.java 685 9 13 0
 EditAction 1476967116823 Explorer.java 694 9 12 0
 EditAction 1476967142921 Explorer.java 737 9 12 0
 EditAction 1476967181745 Explorer.java 825 9 12 0
+UnitTestCaseAction 1476967198806 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476967198806 TestPlanetExplorer.java FAIL
+RefactoringAction 1476967214132 TestPlanetExplorer.java ADD void testMoveExplorerLeftWest()/2 METHOD
+EditAction 1476967319458 TestPlanetExplorer.java 1791 8 31 8
