@@ -69,3 +69,4 @@ RefactoringAction 1476964478993 BoxInfo.java ADD void setDirection(String) METHO
 RefactoringAction 1476964478993 BoxInfo.java ADD boolean isObstacle() METHOD
 RefactoringAction 1476964478993 BoxInfo.java ADD void setObstacle(boolean) METHOD
 EditAction 1476964490229 TestPlanetExplorer.java 303 2 2 1
+EditAction 1476964644015 PlanetExplorer.java 1463 3 4 0
