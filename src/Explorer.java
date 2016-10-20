@@ -29,8 +29,16 @@ public class Explorer {
 		this.direction = string;
 
 	}
-	public int moveUp() {
-		setPosition(exp.getX()+1, exp.getY());
+	public void moveUp() {
+		setPosition(this.x++, this.y);
 	}
-	
+	public void moveDown() {
+		setPosition(this.x--, this.y);
+	}
+	public void moveLeft() {
+		setPosition(this.x, this.y--);
+	}
+	public void moveRight() {
+		setPosition(this.x, this.y++);
+	}
 }

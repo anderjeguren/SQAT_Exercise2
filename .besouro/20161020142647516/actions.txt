@@ -293,3 +293,15 @@ RefactoringAction 1476966552473 Explorer.java RENAME getY()/2=>int move() METHOD
 RefactoringAction 1476966553978 Explorer.java RENAME move()=>int moveUp() METHOD
 EditAction 1476966593022 Explorer.java 594 7 11 0
 EditAction 1476966629065 Explorer.java 623 7 11 0
+CompilationAction 1476966629261 Explorer.java
+CompilationAction 1476966656282 Explorer.java
+CompilationAction 1476966656442 Explorer.java
+CompilationAction 1476966673270 Explorer.java
+RefactoringAction 1476966678106 Explorer.java ADD void moveUp()/2 METHOD
+RefactoringAction 1476966679112 Explorer.java ADD void moveUp()/3 METHOD
+RefactoringAction 1476966680622 Explorer.java ADD void moveUp()/4 METHOD
+RefactoringAction 1476966684631 Explorer.java RENAME moveUp()/4=>void moveDown() METHOD
+RefactoringAction 1476966686639 Explorer.java RENAME moveUp()/3=>void moveU() METHOD
+RefactoringAction 1476966688648 Explorer.java RENAME moveU()=>void moveLeft() METHOD
+RefactoringAction 1476966692156 Explorer.java RENAME moveUp()/2=>void moveRight() METHOD
+EditAction 1476966712394 Explorer.java 809 10 14 0
