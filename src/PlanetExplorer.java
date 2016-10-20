@@ -9,7 +9,7 @@ public class PlanetExplorer {
 	private int planetLenghtY;
 
 	private Explorer exp;
-	private String[] obstacle = new String[planetLenghtX*planetLenghtY];
+	private String[] obstacle;
 	
 	private void landExplorer() {
 		// TODO Auto-generated method stub
@@ -27,6 +27,7 @@ public class PlanetExplorer {
 	 */
 		this.planetLenghtX = x;
 		this.planetLenghtY = y;
+		this.obstacle = new String[planetLenghtX*planetLenghtY];
 
 	}
 	
@@ -103,19 +104,19 @@ public class PlanetExplorer {
 		
 		String status = sb.toString();
 		for(int i=0; i<obstacle.length;i++){
-			if(obstacle[i].isEmpty()){
+			if(obstacle[i]==null){
 				obstacle[i]=status;
 				return;
 			}
 		}
 	}
 
-	public String findObstacle(int i) {
+	public String findObstacle(int num) {
 		// TODO Auto-generated method stub
 		for(int i=0; i<obstacle.length;i++){
-			if(obstacle[i].isEmpty()){
-				obstacle[i]=status;
-			}
-			return obstacle[i];
+			if(!obstacle[i]==null)
+				System.out.println(obstacle[i]);
+		}
+		return obstacle[num];
 	}
 }

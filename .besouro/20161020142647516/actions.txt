@@ -555,3 +555,33 @@ UnitTestSessionAction 1476969387183 TestPlanetExplorer.java FAIL
 UnitTestCaseAction 1476969455500 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476969455501 TestPlanetExplorer.java FAIL
 EditAction 1476969484098 PlanetExplorer.java 3083 6 26 0
+CompilationAction 1476969484283 PlanetExplorer.java
+CompilationAction 1476969484283 PlanetExplorer.java
+CompilationAction 1476969484283 PlanetExplorer.java
+CompilationAction 1476969493840 PlanetExplorer.java
+CompilationAction 1476969493840 PlanetExplorer.java
+CompilationAction 1476969493841 PlanetExplorer.java
+CompilationAction 1476969493995 PlanetExplorer.java
+CompilationAction 1476969493995 PlanetExplorer.java
+CompilationAction 1476969510543 PlanetExplorer.java
+CompilationAction 1476969510544 PlanetExplorer.java
+CompilationAction 1476969510697 PlanetExplorer.java
+CompilationAction 1476969510697 PlanetExplorer.java
+CompilationAction 1476969538532 PlanetExplorer.java
+CompilationAction 1476969538687 PlanetExplorer.java
+CompilationAction 1476969556006 PlanetExplorer.java
+UnitTestCaseAction 1476969558068 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476969558068 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476969656888 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476969656888 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476969659411 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476969659412 TestPlanetExplorer.java FAIL
+RefactoringAction 1476969708583 PlanetExplorer.java RENAME obstacle=>String FIELD
+RefactoringAction 1476969710090 PlanetExplorer.java RENAME obstaclw=>String FIELD
+UnitTestCaseAction 1476969714661 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476969714662 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476969801791 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476969801791 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476969814575 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476969814575 TestPlanetExplorer.java FAIL
+EditAction 1476969828028 PlanetExplorer.java 3107 6 28 0
