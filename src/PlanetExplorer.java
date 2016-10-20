@@ -88,6 +88,6 @@ public class PlanetExplorer {
 
 	public int getSize() {
 		// TODO Auto-generated method stub
-		return planetLenght;
+		return planetLenghtX * planetLenghtY;
 	}
 }
