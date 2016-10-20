@@ -609,3 +609,6 @@ CompilationAction 1476970272558 PlanetExplorer.java
 CompilationAction 1476970272558 PlanetExplorer.java
 CompilationAction 1476970316740 Explorer.java
 EditAction 1476970351013 Explorer.java 1150 9 12 0
+RefactoringAction 1476970359177 Explorer.java ADD void redirectLeft(String)/2 METHOD
+RefactoringAction 1476970363681 Explorer.java RENAME redirectLeft(String)/2=>void redirectRight(String) METHOD
+EditAction 1476970364570 Explorer.java 1468 10 13 0

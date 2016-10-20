@@ -38,6 +38,24 @@ public class Explorer {
 		}
 		
 	}
+	public void redirectRight(String string) {
+		// TODO Auto-generated method stub
+		switch(direction){
+		case "N":
+			this.direction = "W";
+			break;
+		case "W":
+			this.direction = "S";
+			break;
+		case "S":
+			this.direction = "E";
+			break;
+		case "E":
+			this.direction = "N";
+			break;
+		}
+		
+	}
 	public void moveUp(int planetLenghtX) {
 		if (this.x==planetLenghtX-1)
 			this.x = 0;
