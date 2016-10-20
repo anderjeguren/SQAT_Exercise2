@@ -1,0 +1,6 @@
+FileOpenedAction 1476962824913 PlanetExplorer.java 1270 2 1 0
+FileOpenedAction 1476962943035 TestPlanetExplorer.java 174 1 1 0
+RefactoringAction 1476963016580 TestPlanetExplorer.java RENAME test_executeCommand()=>void test() METHOD
+RefactoringAction 1476963017598 TestPlanetExplorer.java RENAME test()=>void testThe() METHOD
+RefactoringAction 1476963020112 TestPlanetExplorer.java RENAME testThe()=>void testThePlanet() METHOD
+EditAction 1476963026683 TestPlanetExplorer.java 140 1 0 0
