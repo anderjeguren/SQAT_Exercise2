@@ -5,3 +5,6 @@
 1476966059578 test-addition 1 19 false
 1476966097834 regression 1 4 false
 1476966883408 test-first 1 757 true
+1476966916698 test-addition 1 13 false
+1476966927341 regression 1 0 false
+1476966939683 regression 1 0 true

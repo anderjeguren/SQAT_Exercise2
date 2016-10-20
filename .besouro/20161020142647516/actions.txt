@@ -317,3 +317,10 @@ UnitTestSessionAction 1476966883408 TestPlanetExplorer.java OK
 RefactoringAction 1476966902986 TestPlanetExplorer.java ADD void testMoveExplorerLeft()/2 METHOD
 RefactoringAction 1476966913004 TestPlanetExplorer.java RENAME testMoveExplorerLeft()/2=>void testMoveExplorerLeftWest() METHOD
 EditAction 1476966913019 TestPlanetExplorer.java 1537 7 26 7
+UnitTestCaseAction 1476966916698 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476966916698 TestPlanetExplorer.testMoveExplorerLeftWest OK
+UnitTestCaseAction 1476966927340 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476966927341 TestPlanetExplorer.testMoveExplorerLeftWest OK
+UnitTestCaseAction 1476966939682 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476966939683 TestPlanetExplorer.java OK
+EditAction 1476967103400 Explorer.java 686 9 13 0

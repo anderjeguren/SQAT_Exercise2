@@ -26,6 +26,8 @@ public class Explorer {
 
 	}
 	public void moveUp() {
+		if (this.x==100)
+			this.x = 0;
 		this.x++;
 	}
 	public void moveDown() {
