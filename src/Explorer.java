@@ -35,12 +35,18 @@ public class Explorer {
 		if (this.x==0)
 			this.x = 99;
 		else
-		this.x--;
+			this.x--;
 	}
 	public void moveLeft() {
+		if (this.y==0)
+			this.x = 99;
+		else
 		 this.y--;
 	}
 	public void moveRight() {
-		this.y++;
+		if (this.x==99)
+			this.x = 0;
+		else
+			this.y++;
 	}
 }
