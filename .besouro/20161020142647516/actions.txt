@@ -257,3 +257,12 @@ UnitTestSessionAction 1476966097834 TestPlanetExplorer.java OK
 RefactoringAction 1476966126397 TestPlanetExplorer.java ADD void testMove FIELD
 RefactoringAction 1476966129404 TestPlanetExplorer.java RENAME testMove=>void testMoveExplorer() METHOD
 EditAction 1476966152036 TestPlanetExplorer.java 1009 5 16 4
+CompilationAction 1476966152163 TestPlanetExplorer.java
+RefactoringAction 1476966180974 TestPlanetExplorer.java RENAME testMoveExplorer()=>void testMoveExplorerUp() METHOD
+RefactoringAction 1476966185982 TestPlanetExplorer.java ADD void testMoveExplorerUp()/2 METHOD
+CompilationAction 1476966189222 TestPlanetExplorer.java
+CompilationAction 1476966189376 TestPlanetExplorer.java
+RefactoringAction 1476966245061 TestPlanetExplorer.java RENAME testMoveExplorerDown()=>void testMoveExplorerLeft() METHOD
+CompilationAction 1476966246304 TestPlanetExplorer.java
+CompilationAction 1476966246469 TestPlanetExplorer.java
+EditAction 1476966249957 TestPlanetExplorer.java 1228 6 20 5

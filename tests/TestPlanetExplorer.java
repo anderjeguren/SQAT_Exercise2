@@ -40,10 +40,20 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testMoveExplorer() {
+	public void testMoveExplorerUp() {
 		PlanetExplorer planet = new PlanetExplorer(100,100,"");
 		
 		planet.landExplorer();
-		planet.moveExplorer("j");
+		planet.moveExplorer("w");
+		
+		assertEquals("10N",planet.getExplorerStatus());
+	}
+	
+	@Test
+	public void testMoveExplorerLeft() {
+		PlanetExplorer planet = new PlanetExplorer(100,100,"");
+		
+		planet.landExplorer();
+		planet.moveExplorer("s");
 	}
 }
