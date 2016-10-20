@@ -191,3 +191,5 @@ UnitTestSessionAction 1476965456456 TestPlanetExplorer.java FAIL
 UnitTestCaseAction 1476965499252 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476965499252 TestPlanetExplorer.java FAIL
 EditAction 1476965520146 Explorer.java 415 6 6 0
+RefactoringAction 1476965539710 Explorer.java ADD Explorer(int, int, String) METHOD
+EditAction 1476965541403 Explorer.java 544 7 10 0
