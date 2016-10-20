@@ -26,7 +26,7 @@ public class Explorer {
 
 	}
 	public void moveUp() {
-		if (this.x==100)
+		if (this.x==99)
 			this.x = 0;
 		this.x++;
 	}
