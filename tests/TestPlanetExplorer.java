@@ -34,7 +34,7 @@ public class TestPlanetExplorer {
 		PlanetExplorer planet = new PlanetExplorer(100,100,"");
 		
 		planet.landExplorer();
-		planet.changeDirection("d");
+		planet.changeDirection("a");
 		
 		assertEquals("00E",planet.getExplorerStatus());
 	}
