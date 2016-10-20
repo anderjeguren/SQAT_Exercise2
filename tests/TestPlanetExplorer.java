@@ -55,5 +55,8 @@ public class TestPlanetExplorer {
 		
 		planet.landExplorer();
 		planet.moveExplorer("s");
+		
+		assertEquals("0-1W",planet.getExplorerStatus());
+
 	}
 }
