@@ -81,13 +81,13 @@ public class PlanetExplorer {
 			exp.setPosition(exp.getX()+1, exp.getY());
 			break;
 		case "s":
-			exp.redirect("S");
+			exp.setPosition(exp.getX()-1, exp.getY());
 			break;
 		case "a":
-			exp.redirect("W");
+			exp.setPosition(exp.getX(), exp.getY()-1);
 			break;
 		case "d":
-			exp.redirect("E");
+			exp.setPosition(exp.getX(), exp.getY()+1);
 			break;
 		}
 	}
