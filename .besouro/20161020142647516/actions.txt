@@ -515,3 +515,7 @@ CompilationAction 1476969091902 TestPlanetExplorer.java
 CompilationAction 1476969092066 TestPlanetExplorer.java
 RefactoringAction 1476969096544 PlanetExplorer.java ADD boolean findObstacle(String) METHOD
 EditAction 1476969137985 TestPlanetExplorer.java 1562 9 19 9
+CompilationAction 1476969138114 TestPlanetExplorer.java
+RefactoringAction 1476969143907 PlanetExplorer.java RENAME findObstacle(String)=>boolean findObstacle() METHOD
+RefactoringAction 1476969145412 PlanetExplorer.java RENAME findObstacle()=>boolean findObstacle(int) METHOD
+EditAction 1476969146133 PlanetExplorer.java 2839 6 19 0

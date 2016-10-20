@@ -99,4 +99,12 @@ public class PlanetExplorer {
 				obstacle[i]="(x,y)";
 		}
 	}
+
+	public boolean findObstacle(int num) {
+		// TODO Auto-generated method stub
+		for(int i=0; i<obstacle.length;i++){
+			if(obstacle[i].isEmpty())
+				obstacle[i]="(x,y)";
+		}
+	}
 }
