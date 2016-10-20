@@ -49,7 +49,9 @@ public class PlanetExplorer {
 
 	public boolean getPosition(int i, int j) {
 		// TODO Auto-generated method stub
-		return null;
+		if (i*j == exp.getX()*exp.getY())
+			return true;
+		return false;
 	}
 
 }

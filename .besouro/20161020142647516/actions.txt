@@ -147,3 +147,7 @@ CompilationAction 1476964918630 PlanetExplorer.java
 EditAction 1476964954554 PlanetExplorer.java 1564 4 6 0
 RefactoringAction 1476964971648 PlanetExplorer.java ADD Object getPosition(int, int) METHOD
 EditAction 1476964982711 PlanetExplorer.java 1664 5 7 0
+CompilationAction 1476964982895 PlanetExplorer.java
+CompilationAction 1476964982895 TestPlanetExplorer.java
+CompilationAction 1476965023513 PlanetExplorer.java
+EditAction 1476965031711 PlanetExplorer.java 1717 5 8 0
