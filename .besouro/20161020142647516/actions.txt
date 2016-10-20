@@ -420,3 +420,8 @@ RefactoringAction 1476968233743 Explorer.java RENAME moveDown()=>void moveDown(i
 RefactoringAction 1476968239566 Explorer.java RENAME moveLeft()=>void moveLeft(int) METHOD
 RefactoringAction 1476968244837 Explorer.java RENAME moveRight()=>void moveRight(int) METHOD
 EditAction 1476968246086 Explorer.java 922 9 12 0
+CompilationAction 1476968246244 Explorer.java
+CompilationAction 1476968246245 PlanetExplorer.java
+RefactoringAction 1476968254398 TestPlanetExplorer.java ADD void testMoveExplorerLeftWest()/2 METHOD
+RefactoringAction 1476968265405 TestPlanetExplorer.java RENAME testMoveExplorerLeftWest()/2=>void testWrapping() METHOD
+EditAction 1476968265813 TestPlanetExplorer.java 1381 8 16 8

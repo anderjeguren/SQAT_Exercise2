@@ -55,4 +55,12 @@ public class TestPlanetExplorer {
 
 	}
 	
+	@Test
+	public void testWrapping() {
+		PlanetExplorer planet = new PlanetExplorer(100,100,"");
+		
+		assertEquals("(0,99,W)",planet.executeCommand("aj"));
+
+	}
+	
 }
