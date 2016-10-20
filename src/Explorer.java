@@ -17,10 +17,6 @@ public class Explorer {
 	public int getY() {
 		return y;
 	}
-	public void setPosition(int x, int y) {
-		this.x = x;
-		this.y = y;
-	}
 	public String getDirection() {
 		return direction;
 	}
@@ -30,15 +26,15 @@ public class Explorer {
 
 	}
 	public void moveUp() {
-		setPosition(this.x++, this.y);
+		this.x++;
 	}
 	public void moveDown() {
-		setPosition(this.x--, this.y);
+		this.x--;
 	}
 	public void moveLeft() {
-		setPosition(this.x, this.y--);
+		 this.y--;
 	}
 	public void moveRight() {
-		setPosition(this.x, this.y++);
+		this.y++;
 	}
 }

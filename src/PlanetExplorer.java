@@ -52,7 +52,6 @@ public class PlanetExplorer {
 		sb.append(exp.getY());
 		sb.append(exp.getDirection());
 		String status = sb.toString();
-		System.out.println(status);
 		return status;
 	}
 

@@ -306,3 +306,9 @@ RefactoringAction 1476966688648 Explorer.java RENAME moveU()=>void moveLeft() ME
 RefactoringAction 1476966692156 Explorer.java RENAME moveUp()/2=>void moveRight() METHOD
 EditAction 1476966712394 Explorer.java 809 10 14 0
 EditAction 1476966740263 PlanetExplorer.java 2377 7 13 0
+UnitTestCaseAction 1476966742278 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476966742279 TestPlanetExplorer.java FAIL
+RefactoringAction 1476966813758 Explorer.java REMOVE setPosition(int, int) METHOD
+UnitTestCaseAction 1476966838789 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476966838790 TestPlanetExplorer.java FAIL
+EditAction 1476966881734 TestPlanetExplorer.java 1314 6 22 6
