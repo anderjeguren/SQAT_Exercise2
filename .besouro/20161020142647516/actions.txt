@@ -452,3 +452,6 @@ EditAction 1476968631538 TestPlanetExplorer.java 1609 9 20 9
 CompilationAction 1476968631744 TestPlanetExplorer.java
 RefactoringAction 1476968637053 PlanetExplorer.java ADD void placeObstacle(int, int) METHOD
 EditAction 1476968643315 PlanetExplorer.java 2539 5 17 0
+UnitTestCaseAction 1476968645751 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476968645751 TestPlanetExplorer.java OK
+EditAction 1476968710836 TestPlanetExplorer.java 1580 9 19 9
