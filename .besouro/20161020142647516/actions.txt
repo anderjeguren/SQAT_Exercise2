@@ -62,3 +62,10 @@ RefactoringAction 1476964452969 BoxInfo.java ADD boolean obsta FIELD
 RefactoringAction 1476964453972 BoxInfo.java RENAME obsta=>boolean obstac FIELD
 RefactoringAction 1476964455976 BoxInfo.java RENAME obstac=>boolean obstacle FIELD
 EditAction 1476964456676 BoxInfo.java 113 0 0 0
+RefactoringAction 1476964478992 BoxInfo.java ADD boolean isOccupy() METHOD
+RefactoringAction 1476964478992 BoxInfo.java ADD void setOccupy(boolean) METHOD
+RefactoringAction 1476964478993 BoxInfo.java ADD String getDirection() METHOD
+RefactoringAction 1476964478993 BoxInfo.java ADD void setDirection(String) METHOD
+RefactoringAction 1476964478993 BoxInfo.java ADD boolean isObstacle() METHOD
+RefactoringAction 1476964478993 BoxInfo.java ADD void setObstacle(boolean) METHOD
+EditAction 1476964490229 TestPlanetExplorer.java 303 2 2 1

@@ -8,7 +8,11 @@ public class TestPlanetExplorer {
 	public void testThePlanet() {
 		PlanetExplorer planet = new PlanetExplorer(100,100,"");
 		
-		assertEquals(100*100, planet.getSize()*planet.getSize());
+		assertEquals(100*100, planet.getSize()*planet.getSize());	
+	}
+	
+	@Test
+	public void testLanding() {
 		
 	}
 }
