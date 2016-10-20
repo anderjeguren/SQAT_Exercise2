@@ -193,3 +193,7 @@ UnitTestSessionAction 1476965499252 TestPlanetExplorer.java FAIL
 EditAction 1476965520146 Explorer.java 415 6 6 0
 RefactoringAction 1476965539710 Explorer.java ADD Explorer(int, int, String) METHOD
 EditAction 1476965541403 Explorer.java 544 7 10 0
+RefactoringAction 1476965555723 Explorer.java REMOVE getDirection() METHOD
+RefactoringAction 1476965555724 Explorer.java REMOVE setDirection(String) METHOD
+RefactoringAction 1476965555725 Explorer.java REMOVE setY(int) METHOD
+EditAction 1476965560391 Explorer.java 354 4 7 0
