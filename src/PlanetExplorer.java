@@ -114,7 +114,7 @@ public class PlanetExplorer {
 	public String findObstacle(int num) {
 		// TODO Auto-generated method stub
 		for(int i=0; i<obstacle.length;i++){
-			if(!obstacle[i]==null)
+			if(obstacle[i]!=null)
 				System.out.println(obstacle[i]);
 		}
 		return obstacle[num];
