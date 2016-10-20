@@ -22,14 +22,14 @@ public class TestPlanetExplorer {
 	public void testTurningEast() {
 		PlanetExplorer planet = new PlanetExplorer(100,100,"");
 		
-		assertEquals("(0,0,E)",planet.executeCommand("l"));
+		assertEquals("(0,0,E)",planet.executeCommand("r"));
 	}
 	
 	@Test
 	public void testTurningWest() {
 		PlanetExplorer planet = new PlanetExplorer(100,100,"");
 		
-		assertEquals("(0,0,W)",planet.executeCommand("j"));
+		assertEquals("(0,0,W)",planet.executeCommand("l"));
 	}
 	
 	@Test
@@ -51,7 +51,7 @@ public class TestPlanetExplorer {
 	public void testMoveExplorerLeftWest() {
 		PlanetExplorer planet = new PlanetExplorer(100,100,"");
 		
-		assertEquals("(0,99,W)",planet.executeCommand("aj"));
+		assertEquals("(0,99,W)",planet.executeCommand("al"));
 
 	}
 	
@@ -59,7 +59,7 @@ public class TestPlanetExplorer {
 	public void testWrapping() {
 		PlanetExplorer planet = new PlanetExplorer(100,100,"");
 		
-		assertEquals("(99,99,W)",planet.executeCommand("ajs"));
+		assertEquals("(99,99,W)",planet.executeCommand("als"));
 
 	}
 	

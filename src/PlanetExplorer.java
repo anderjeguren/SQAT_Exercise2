@@ -34,8 +34,7 @@ public class PlanetExplorer {
 	public String executeCommand(String command){
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
-		 * In my case the explorer can move to all the directions and change the direction view as he 
-		 * wants as well
+		 * In my case the explorer can move to all the directions 
 		 * Example: 
 		 * The explorer is on a 100x100 grid at location (0, 0) and facing NORTH. 
 		 * The explorer is given the commands "ffrff" and should end up at (2, 2) facing East.
