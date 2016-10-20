@@ -228,3 +228,5 @@ RefactoringAction 1476965726877 TestPlanetExplorer.java RENAME test=>void testTu
 RefactoringAction 1476965727882 TestPlanetExplorer.java RENAME testTurning=>void testTurning() METHOD
 EditAction 1476965743676 TestPlanetExplorer.java 547 3 7 2
 EditAction 1476965819110 TestPlanetExplorer.java 577 3 8 2
+CompilationAction 1476965819305 TestPlanetExplorer.java
+EditAction 1476965840650 TestPlanetExplorer.java 630 3 9 3
