@@ -34,3 +34,6 @@ CompilationAction 1476964179910 TestPlanetExplorer.java
 CompilationAction 1476964179911 TestPlanetExplorer.java
 RefactoringAction 1476964198977 PlanetExplorer.java ADD Object getSize() METHOD
 EditAction 1476964218790 PlanetExplorer.java 1460 3 4 0
+CompilationAction 1476964218976 TestPlanetExplorer.java
+CompilationAction 1476964218976 TestPlanetExplorer.java
+EditAction 1476964221439 TestPlanetExplorer.java 242 1 2 1
