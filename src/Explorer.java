@@ -30,7 +30,7 @@ public class Explorer {
 
 	}
 	public int moveUp() {
-		return y;
+		setPosition(exp.getX()+1, exp.getY());
 	}
 	
 }

@@ -292,3 +292,4 @@ RefactoringAction 1476966548465 Explorer.java ADD int getY()/2 METHOD
 RefactoringAction 1476966552473 Explorer.java RENAME getY()/2=>int move() METHOD
 RefactoringAction 1476966553978 Explorer.java RENAME move()=>int moveUp() METHOD
 EditAction 1476966593022 Explorer.java 594 7 11 0
+EditAction 1476966629065 Explorer.java 623 7 11 0
