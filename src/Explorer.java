@@ -14,11 +14,12 @@ public class Explorer {
 	public int getX() {
 		return x;
 	}
-	public void setX(int x) {
-		this.x = x;
-	}
 	public int getY() {
 		return y;
 	}
+	public String getDirection() {
+		return direction;
+	}
+	
 	
 }

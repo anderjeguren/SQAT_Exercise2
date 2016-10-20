@@ -42,9 +42,7 @@ public class PlanetExplorer {
 
 	public void landExplorer() {
 		// TODO Auto-generated method stub
-		exp.setDirection("N");
-		exp.setX(0);
-		exp.setY(0);
+		exp = new Explorer(0,0,"N");
 	}
 
 	public String getExplorerStatus() {

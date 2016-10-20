@@ -197,3 +197,24 @@ RefactoringAction 1476965555723 Explorer.java REMOVE getDirection() METHOD
 RefactoringAction 1476965555724 Explorer.java REMOVE setDirection(String) METHOD
 RefactoringAction 1476965555725 Explorer.java REMOVE setY(int) METHOD
 EditAction 1476965560391 Explorer.java 354 4 7 0
+CompilationAction 1476965560528 PlanetExplorer.java
+CompilationAction 1476965560529 PlanetExplorer.java
+CompilationAction 1476965560529 PlanetExplorer.java
+CompilationAction 1476965615215 PlanetExplorer.java
+CompilationAction 1476965615216 PlanetExplorer.java
+CompilationAction 1476965615384 PlanetExplorer.java
+CompilationAction 1476965615384 PlanetExplorer.java
+CompilationAction 1476965631992 PlanetExplorer.java
+CompilationAction 1476965631992 PlanetExplorer.java
+CompilationAction 1476965632107 PlanetExplorer.java
+CompilationAction 1476965632108 PlanetExplorer.java
+CompilationAction 1476965652132 PlanetExplorer.java
+CompilationAction 1476965652133 PlanetExplorer.java
+CompilationAction 1476965652300 PlanetExplorer.java
+RefactoringAction 1476965674786 Explorer.java ADD void setY(int) METHOD
+RefactoringAction 1476965674787 Explorer.java ADD String getDirection() METHOD
+RefactoringAction 1476965674787 Explorer.java ADD void setDirection(String) METHOD
+RefactoringAction 1476965680295 Explorer.java REMOVE setX(int) METHOD
+RefactoringAction 1476965684301 Explorer.java REMOVE setY(int) METHOD
+RefactoringAction 1476965687305 Explorer.java REMOVE setDirection(String) METHOD
+EditAction 1476965687405 Explorer.java 368 4 7 0
