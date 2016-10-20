@@ -441,3 +441,10 @@ UnitTestSessionAction 1476968429644 TestPlanetExplorer.java OK
 UnitTestCaseAction 1476968429873 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476968429874 TestPlanetExplorer.java OK
 EditAction 1476968441392 Explorer.java 945 9 12 0
+UnitTestCaseAction 1476968444806 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476968444806 TestPlanetExplorer.java OK
+RefactoringAction 1476968534529 TestPlanetExplorer.java ADD void testWrapping()/2 METHOD
+RefactoringAction 1476968538035 TestPlanetExplorer.java RENAME testWrapping()/2=>void test() METHOD
+RefactoringAction 1476968540039 TestPlanetExplorer.java RENAME test()=>void testPL() METHOD
+RefactoringAction 1476968544545 TestPlanetExplorer.java RENAME testPL()=>void testPlaceObstacle() METHOD
+EditAction 1476968544650 TestPlanetExplorer.java 1550 9 18 9
