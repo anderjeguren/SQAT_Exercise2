@@ -39,12 +39,12 @@ public class Explorer {
 	}
 	public void moveLeft(int planetLenghtY) {
 		if (this.y==0)
-			this.y = planetLenght;
+			this.y = planetLenghtY;
 		else
 		 this.y--;
 	}
 	public void moveRight(int planetLenghtY) {
-		if (this.y==planetLenght)
+		if (this.y==planetLenghtY)
 			this.y = 0;
 		else
 			this.y++;

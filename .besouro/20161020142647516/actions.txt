@@ -427,3 +427,6 @@ RefactoringAction 1476968265405 TestPlanetExplorer.java RENAME testMoveExplorerL
 EditAction 1476968265813 TestPlanetExplorer.java 1381 8 16 8
 EditAction 1476968291571 TestPlanetExplorer.java 1383 8 16 8
 EditAction 1476968310650 PlanetExplorer.java 2452 4 17 0
+CompilationAction 1476968327219 Explorer.java
+CompilationAction 1476968327370 Explorer.java
+EditAction 1476968329681 Explorer.java 924 9 12 0
