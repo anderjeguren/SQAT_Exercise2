@@ -90,4 +90,9 @@ public class PlanetExplorer {
 		// TODO Auto-generated method stub
 		return planetLenghtX * planetLenghtY;
 	}
+
+	public void placeObstacle(int i, int j) {
+		// TODO Auto-generated method stub
+		
+	}
 }

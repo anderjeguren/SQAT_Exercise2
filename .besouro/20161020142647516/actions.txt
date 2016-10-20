@@ -449,3 +449,6 @@ RefactoringAction 1476968540039 TestPlanetExplorer.java RENAME test()=>void test
 RefactoringAction 1476968544545 TestPlanetExplorer.java RENAME testPL()=>void testPlaceObstacle() METHOD
 EditAction 1476968544650 TestPlanetExplorer.java 1550 9 18 9
 EditAction 1476968631538 TestPlanetExplorer.java 1609 9 20 9
+CompilationAction 1476968631744 TestPlanetExplorer.java
+RefactoringAction 1476968637053 PlanetExplorer.java ADD void placeObstacle(int, int) METHOD
+EditAction 1476968643315 PlanetExplorer.java 2539 5 17 0
