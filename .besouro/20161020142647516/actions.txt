@@ -252,3 +252,8 @@ UnitTestCaseAction 1476966059578 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476966059578 TestPlanetExplorer.java OK
 EditAction 1476966093096 PlanetExplorer.java 2108 6 12 0
 EditAction 1476966097028 TestPlanetExplorer.java 849 4 13 4
+UnitTestCaseAction 1476966097833 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476966097834 TestPlanetExplorer.java OK
+RefactoringAction 1476966126397 TestPlanetExplorer.java ADD void testMove FIELD
+RefactoringAction 1476966129404 TestPlanetExplorer.java RENAME testMove=>void testMoveExplorer() METHOD
+EditAction 1476966152036 TestPlanetExplorer.java 1009 5 16 4
