@@ -218,3 +218,6 @@ RefactoringAction 1476965680295 Explorer.java REMOVE setX(int) METHOD
 RefactoringAction 1476965684301 Explorer.java REMOVE setY(int) METHOD
 RefactoringAction 1476965687305 Explorer.java REMOVE setDirection(String) METHOD
 EditAction 1476965687405 Explorer.java 368 4 7 0
+UnitTestCaseAction 1476965691003 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476965691004 TestPlanetExplorer.java FAIL
+EditAction 1476965704041 TestPlanetExplorer.java 419 2 5 2
