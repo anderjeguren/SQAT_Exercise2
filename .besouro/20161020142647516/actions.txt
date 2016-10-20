@@ -4,3 +4,6 @@ RefactoringAction 1476963016580 TestPlanetExplorer.java RENAME test_executeComma
 RefactoringAction 1476963017598 TestPlanetExplorer.java RENAME test()=>void testThe() METHOD
 RefactoringAction 1476963020112 TestPlanetExplorer.java RENAME testThe()=>void testThePlanet() METHOD
 EditAction 1476963026683 TestPlanetExplorer.java 140 1 0 0
+RefactoringAction 1476963273930 PlanetExplorer.java ADD PlanetExplorer() METHOD
+RefactoringAction 1476963283673 PlanetExplorer.java REMOVE PlanetExplorer() METHOD
+EditAction 1476963319854 TestPlanetExplorer.java 195 1 1 0
