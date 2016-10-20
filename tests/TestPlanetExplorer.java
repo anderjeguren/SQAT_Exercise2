@@ -59,7 +59,7 @@ public class TestPlanetExplorer {
 	public void testWrapping() {
 		PlanetExplorer planet = new PlanetExplorer(100,100,"");
 		
-		assertEquals("(0,99,W)",planet.executeCommand("aj"));
+		assertEquals("(99,99,W)",planet.executeCommand("ajs"));
 
 	}
 	
