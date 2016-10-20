@@ -3,7 +3,7 @@ public class Explorer {
 
 	private int x;
 	private int y;
-	private String direction;
+	private String direction = null;
 	
 	public int getX() {
 		return x;
