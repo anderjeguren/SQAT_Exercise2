@@ -111,21 +111,15 @@ public class PlanetExplorer {
 		}
 	}
 
-	public String findObstacle(int num) {
+	public String findObstacle() {
 		// TODO Auto-generated method stub
 		StringBuilder sb = new StringBuilder();
-		sb.append("(");
-		sb.append(x);
-		sb.append(",");
-		sb.append(y);
-		sb.append(")");
-		
-		String status = sb.toString();
+
 		for(int i=0; i<obstacle.length;i++){
 			if(obstacle[i]!=null)
 				sb.append(obstacle[i]);
-
 		}
-		return obstacle[num];
+		String status = sb.toString();
+		return status;
 	}
 }
