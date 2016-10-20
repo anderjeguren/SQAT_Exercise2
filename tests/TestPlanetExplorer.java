@@ -18,4 +18,12 @@ public class TestPlanetExplorer {
 		planet.landExplorer();
 		assertEquals("00N",planet.getExplorerStatus());
 	}
+	
+	@Test
+	public void testTurning() {
+		PlanetExplorer planet = new PlanetExplorer(100,100,"");
+		
+		planet.landExplorer();
+
+	}
 }

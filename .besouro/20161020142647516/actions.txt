@@ -221,3 +221,9 @@ EditAction 1476965687405 Explorer.java 368 4 7 0
 UnitTestCaseAction 1476965691003 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476965691004 TestPlanetExplorer.java FAIL
 EditAction 1476965704041 TestPlanetExplorer.java 419 2 5 2
+UnitTestCaseAction 1476965705597 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476965705597 TestPlanetExplorer.java OK
+RefactoringAction 1476965724372 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1476965726877 TestPlanetExplorer.java RENAME test=>void testTurning FIELD
+RefactoringAction 1476965727882 TestPlanetExplorer.java RENAME testTurning=>void testTurning() METHOD
+EditAction 1476965743676 TestPlanetExplorer.java 547 3 7 2
