@@ -10,3 +10,5 @@ EditAction 1476963319854 TestPlanetExplorer.java 195 1 1 0
 CompilationAction 1476963319970 TestPlanetExplorer.java
 CompilationAction 1476963326138 TestPlanetExplorer.java
 EditAction 1476963476271 TestPlanetExplorer.java 204 1 1 0
+RefactoringAction 1476963527387 PlanetExplorer.java ADD PlanetExplorer planet FIELD
+EditAction 1476963544030 TestPlanetExplorer.java 224 1 0 0
